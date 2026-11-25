@@ -1,0 +1,494 @@
+{
+  "generated_at": "2026-11-25 23:28:27 +0800",
+  "count": 3,
+  "notes": [
+    {
+      "id": "2026-11-25",
+      "date": "2026-11-25",
+      "weekday": "周三",
+      "title": "站会汇报与权限申请",
+      "filename": "2026-11-25_站会汇报与权限申请.md",
+      "slug": "2026-11-25_站会汇报与权限申请",
+      "scenes": [
+        {
+          "title": "",
+          "sections": [
+            {
+              "type": "chinese",
+              "heading": "中文原意",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "text": "昨天主要在修 IA 的 bug，还没有完成；期间和 Jackie 开了 one-on-one meeting。Maggie 测试 PTS 时发现一条数据有问题，我查后确认属于系统现有逻辑，与本次改动无关，不需要修复。",
+                  "html": "昨天主要在修 IA 的 bug，还没有完成；期间和 Jackie 开了 one-on-one meeting。Maggie 测试 PTS 时发现一条数据有问题，我查后确认属于系统现有逻辑，与本次改动无关，不需要修复。"
+                },
+                {
+                  "type": "paragraph",
+                  "text": "另一个数据问题需要连接数据库并在本地调试，但目前缺少所需的数据库访问权限，也没有 Key Vault 权限，导致相关服务无法在本地启动调试。昨天已经提交了申请 Key Vault 权限的工单，等 support team 开通权限后继续排查。",
+                  "html": "另一个数据问题需要连接数据库并在本地调试，但目前缺少所需的数据库访问权限，也没有 Key Vault 权限，导致相关服务无法在本地启动调试。昨天已经提交了申请 Key Vault 权限的工单，等 support team 开通权限后继续排查。"
+                },
+                {
+                  "type": "paragraph",
+                  "text": "今天计划修完 IA 的 bug，如果有时间，再看一下 Advance it! 系统。我已确认相关问题不会影响 QA 测试或发布。",
+                  "html": "今天计划修完 IA 的 bug，如果有时间，再看一下 Advance it! 系统。我已确认相关问题不会影响 QA 测试或发布。"
+                }
+              ],
+              "text": "昨天主要在修 IA 的 bug，还没有完成；期间和 Jackie 开了 one-on-one meeting。Maggie 测试 PTS 时发现一条数据有问题，我查后确认属于系统现有逻辑，与本次改动无关，不需要修复。\n另一个数据问题需要连接数据库并在本地调试，但目前缺少所需的数据库访问权限，也没有 Key Vault 权限，导致相关服务无法在本地启动调试。昨天已经提交了申请 Key Vault 权限的工单，等 support team 开通权限后继续排查。\n今天计划修完 IA 的 bug，如果有时间，再看一下 Advance it! 系统。我已确认相关问题不会影响 QA 测试或发布。"
+            },
+            {
+              "type": "english",
+              "heading": "整理后的英文汇报",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "text": "Yesterday, I worked on fixing an IA bug, but I didn't finish it. I also had a one-on-one meeting with Jackie.",
+                  "html": "Yesterday, I worked on fixing an IA bug, but I didn&#x27;t finish it. I also had a one-on-one meeting with Jackie."
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Maggie reported a PTS data issue. I checked it and confirmed that it was expected behavior under the existing logic and wasn't related to our changes, so no fix was needed.",
+                  "html": "Maggie reported a PTS data issue. I checked it and confirmed that it was expected behavior under the existing logic and wasn&#x27;t related to our changes, so no fix was needed."
+                },
+                {
+                  "type": "paragraph",
+                  "text": "For the other data issue, I need database access to investigate it. I also couldn't run the service locally for debugging without Key Vault access, so I submitted a ticket yesterday to request that access. Once the support team grants me access, I'll continue debugging the issue and update the team in Teams promptly.",
+                  "html": "For the other data issue, I need database access to investigate it. I also couldn&#x27;t run the service locally for debugging without Key Vault access, so I submitted a ticket yesterday to request that access. Once the support team grants me access, I&#x27;ll continue debugging the issue and update the team in Teams promptly."
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Today, I plan to finish fixing the IA bugs. If I have time, I'll also take a look at Advance it!.",
+                  "html": "Today, I plan to finish fixing the IA bugs. If I have time, I&#x27;ll also take a look at Advance it!."
+                },
+                {
+                  "type": "paragraph",
+                  "text": "I confirmed that the issue doesn't affect QA testing or deployment.",
+                  "html": "I confirmed that the issue doesn&#x27;t affect QA testing or deployment."
+                }
+              ],
+              "text": "Yesterday, I worked on fixing an IA bug, but I didn't finish it. I also had a one-on-one meeting with Jackie.\nMaggie reported a PTS data issue. I checked it and confirmed that it was expected behavior under the existing logic and wasn't related to our changes, so no fix was needed.\nFor the other data issue, I need database access to investigate it. I also couldn't run the service locally for debugging without Key Vault access, so I submitted a ticket yesterday to request that access. Once the support team grants me access, I'll continue debugging the issue and update the team in Teams promptly.\nToday, I plan to finish fixing the IA bugs. If I have time, I'll also take a look at Advance it!.\nI confirmed that the issue doesn't affect QA testing or deployment."
+            },
+            {
+              "type": "qa",
+              "heading": "站会追问练习",
+              "items": [
+                {
+                  "q_en": "Does this issue affect QA testing or deployment?",
+                  "q_zh": "这个问题会影响 QA 测试或发布吗？",
+                  "a_en": "I confirmed that it doesn't affect QA testing or deployment.",
+                  "a_zh": "我已确认它不会影响 QA 测试或发布。"
+                },
+                {
+                  "q_en": "When will you update the team?",
+                  "q_zh": "你什么时候向团队同步进展？",
+                  "a_en": "Once the support team replies, I'll update the team in Teams.",
+                  "a_zh": "支持团队回复后，我会在 Teams 中向团队同步进展。"
+                }
+              ],
+              "supplements": [
+                {
+                  "label": "补充句型（课堂练习，尚未确认是实际安排）：",
+                  "en": "If there's still no reply by tomorrow's stand-up, I'll bring it up again then.",
+                  "zh": "如果到明天站会仍然没有回复，我会在会上再提一下。"
+                }
+              ],
+              "preamble": "",
+              "text": "\n**Q: Does this issue affect QA testing or deployment?**\n\n这个问题会影响 QA 测试或发布吗？\n\n**A: I confirmed that it doesn't affect QA testing or deployment.**\n\n我已确认它不会影响 QA 测试或发布。\n\n**Q: When will you update the team?**\n\n你什么时候向团队同步进展？\n\n**A: Once the support team replies, I'll update the team in Teams.**\n\n支持团队回复后，我会在 Teams 中向团队同步进展。\n\n**补充句型（课堂练习，尚未确认是实际安排）：**\n\nIf there's still no reply by tomorrow's stand-up, I'll bring it up again then.\n\n如果到明天站会仍然没有回复，我会在会上再提一下。"
+            },
+            {
+              "type": "vocab",
+              "heading": "重点词汇",
+              "blocks": [
+                {
+                  "type": "table",
+                  "columns": [
+                    "词语",
+                    "含义",
+                    "本次场景中的用法"
+                  ],
+                  "rows": [
+                    [
+                      "locally",
+                      "在本地；副词",
+                      "debug locally：在自己的电脑或本地开发环境中调试"
+                    ],
+                    [
+                      "grant / grants",
+                      "授予、批准给予",
+                      "The support team grants me access：支持团队授予我权限；本句把 team 作为单数整体，使用 grants"
+                    ],
+                    [
+                      "promptly",
+                      "及时地、迅速地",
+                      "update the team promptly：及时向团队同步进展"
+                    ],
+                    [
+                      "properly",
+                      "正确地、妥当地",
+                      "The service isn't working properly：服务运行不正常；它不表示“及时”"
+                    ],
+                    [
+                      "confirm / confirmed",
+                      "确认",
+                      "I confirmed that it doesn't affect testing：我已确认它不影响测试"
+                    ],
+                    [
+                      "concern",
+                      "涉及、使担忧；也可作名词表示担忧",
+                      "本次要表达“确认”，应使用 confirm"
+                    ],
+                    [
+                      "expected behavior",
+                      "符合预期的行为",
+                      "It was expected behavior, so no fix was needed."
+                    ],
+                    [
+                      "request access",
+                      "申请访问权限",
+                      "I submitted a ticket to request Key Vault access."
+                    ]
+                  ]
+                }
+              ],
+              "text": "词语 含义 本次场景中的用法\nlocally 在本地；副词 debug locally：在自己的电脑或本地开发环境中调试\ngrant / grants 授予、批准给予 The support team grants me access：支持团队授予我权限；本句把 team 作为单数整体，使用 grants\npromptly 及时地、迅速地 update the team promptly：及时向团队同步进展\nproperly 正确地、妥当地 The service isn't working properly：服务运行不正常；它不表示“及时”\nconfirm / confirmed 确认 I confirmed that it doesn't affect testing：我已确认它不影响测试\nconcern 涉及、使担忧；也可作名词表示担忧 本次要表达“确认”，应使用 confirm\nexpected behavior 符合预期的行为 It was expected behavior, so no fix was needed.\nrequest access 申请访问权限 I submitted a ticket to request Key Vault access."
+            },
+            {
+              "type": "corrections",
+              "heading": "本次重点纠正",
+              "blocks": [
+                {
+                  "type": "table",
+                  "columns": [
+                    "原表达或易错点",
+                    "推荐表达",
+                    "原因"
+                  ],
+                  "rows": [
+                    [
+                      "tomorrow I fix…（描述昨天）",
+                      "Yesterday, I worked on fixing…",
+                      "时间应是 yesterday，已发生的动作使用过去式"
+                    ],
+                    [
+                      "Also had a one-one meeting…",
+                      "I also had a one-on-one meeting…",
+                      "补主语 I；固定表达是 one-on-one"
+                    ],
+                    [
+                      "it didn't bug",
+                      "It wasn't a bug. / It was expected behavior.",
+                      "bug 是名词；这里用 be 动词"
+                    ],
+                    [
+                      "I check it and confirm…（描述已完成的检查）",
+                      "I checked it and confirmed…",
+                      "过去完成的动作使用过去式"
+                    ],
+                    [
+                      "no fix was need",
+                      "no fix was needed",
+                      "被动结构使用过去分词 needed"
+                    ],
+                    [
+                      "I submit / summit a ticket",
+                      "I submitted a ticket.",
+                      "submit 是提交，过去式为 submitted；summit 是另一个词"
+                    ],
+                    [
+                      "keyboard access",
+                      "Key Vault access",
+                      "这里指 Key Vault 权限；语音转写可能把专有名词识别错"
+                    ],
+                    [
+                      "Once support granted access, I will…",
+                      "Once support grants access, I'll…",
+                      "once 引导将来的时间条件时，从句通常使用一般现在时；这里是 grants，不是 granted"
+                    ],
+                    [
+                      "update the team properly（想表达及时）",
+                      "update the team promptly",
+                      "promptly 表示及时，properly 表示妥当"
+                    ],
+                    [
+                      "if there are no reply",
+                      "if there's no reply",
+                      "单数 reply 搭配 there is；也可说 if there are no replies"
+                    ],
+                    [
+                      "it's not affect…",
+                      "it doesn't affect…",
+                      "一般现在时否定使用 doesn't + 动词原形"
+                    ],
+                    [
+                      "I concern…（想表达我确认）",
+                      "I confirmed that…",
+                      "confirm 才表示确认"
+                    ]
+                  ]
+                }
+              ],
+              "text": "原表达或易错点 推荐表达 原因\ntomorrow I fix…（描述昨天） Yesterday, I worked on fixing… 时间应是 yesterday，已发生的动作使用过去式\nAlso had a one-one meeting… I also had a one-on-one meeting… 补主语 I；固定表达是 one-on-one\nit didn't bug It wasn't a bug. / It was expected behavior. bug 是名词；这里用 be 动词\nI check it and confirm…（描述已完成的检查） I checked it and confirmed… 过去完成的动作使用过去式\nno fix was need no fix was needed 被动结构使用过去分词 needed\nI submit / summit a ticket I submitted a ticket. submit 是提交，过去式为 submitted；summit 是另一个词\nkeyboard access Key Vault access 这里指 Key Vault 权限；语音转写可能把专有名词识别错\nOnce support granted access, I will… Once support grants access, I'll… once 引导将来的时间条件时，从句通常使用一般现在时；这里是 grants，不是 granted\nupdate the team properly（想表达及时） update the team promptly promptly 表示及时，properly 表示妥当\nif there are no reply if there's no reply 单数 reply 搭配 there is；也可说 if there are no replies\nit's not affect… it doesn't affect… 一般现在时否定使用 doesn't + 动词原形\nI concern…（想表达我确认） I confirmed that… confirm 才表示确认"
+            },
+            {
+              "type": "review",
+              "heading": "下次复习",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "text": "先不看稿，用英文复述：昨天做了什么、发现了什么、当前缺什么权限、今天准备做什么。再回答是否影响测试或发布，以及何时向团队同步。",
+                  "html": "先不看稿，用英文复述：昨天做了什么、发现了什么、当前缺什么权限、今天准备做什么。再回答是否影响测试或发布，以及何时向团队同步。"
+                }
+              ],
+              "text": "先不看稿，用英文复述：昨天做了什么、发现了什么、当前缺什么权限、今天准备做什么。再回答是否影响测试或发布，以及何时向团队同步。"
+            },
+            {
+              "type": "note",
+              "heading": "备注",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "text": "本记录依据今天提供的练习对话整理。语音转写不作为发音错误的唯一依据；“out of scope”表示不在范围内，并不直接等于不影响测试或发布。",
+                  "html": "本记录依据今天提供的练习对话整理。语音转写不作为发音错误的唯一依据；“out of scope”表示不在范围内，并不直接等于不影响测试或发布。"
+                }
+              ],
+              "text": "本记录依据今天提供的练习对话整理。语音转写不作为发音错误的唯一依据；“out of scope”表示不在范围内，并不直接等于不影响测试或发布。"
+            }
+          ]
+        }
+      ],
+      "search_text": "2026-11-25\n站会汇报与权限申请\n站会汇报与权限申请\n中文原意\n昨天主要在修 IA 的 bug，还没有完成；期间和 Jackie 开了 one-on-one meeting。Maggie 测试 PTS 时发现一条数据有问题，我查后确认属于系统现有逻辑，与本次改动无关，不需要修复。\n另一个数据问题需要连接数据库并在本地调试，但目前缺少所需的数据库访问权限，也没有 Key Vault 权限，导致相关服务无法在本地启动调试。昨天已经提交了申请 Key Vault 权限的工单，等 support team 开通权限后继续排查。\n今天计划修完 IA 的 bug，如果有时间，再看一下 Advance it! 系统。我已确认相关问题不会影响 QA 测试或发布。\n整理后的英文汇报\nYesterday, I worked on fixing an IA bug, but I didn't finish it. I also had a one-on-one meeting with Jackie.\nMaggie reported a PTS data issue. I checked it and confirmed that it was expected behavior under the existing logic and wasn't related to our changes, so no fix was needed.\nFor the other data issue, I need database access to investigate it. I also couldn't run the service locally for debugging without Key Vault access, so I submitted a ticket yesterday to request that access. Once the support team grants me access, I'll continue debugging the issue and update the team in Teams promptly.\nToday, I plan to finish fixing the IA bugs. If I have time, I'll also take a look at Advance it!.\nI confirmed that the issue doesn't affect QA testing or deployment.\n站会追问练习\n\n**Q: Does this issue affect QA testing or deployment?**\n\n这个问题会影响 QA 测试或发布吗？\n\n**A: I confirmed that it doesn't affect QA testing or deployment.**\n\n我已确认它不会影响 QA 测试或发布。\n\n**Q: When will you update the team?**\n\n你什么时候向团队同步进展？\n\n**A: Once the support team replies, I'll update the team in Teams.**\n\n支持团队回复后，我会在 Teams 中向团队同步进展。\n\n**补充句型（课堂练习，尚未确认是实际安排）：**\n\nIf there's still no reply by tomorrow's stand-up, I'll bring it up again then.\n\n如果到明天站会仍然没有回复，我会在会上再提一下。\nDoes this issue affect QA testing or deployment?\n这个问题会影响 QA 测试或发布吗？\nI confirmed that it doesn't affect QA testing or deployment.\n我已确认它不会影响 QA 测试或发布。\nWhen will you update the team?\n你什么时候向团队同步进展？\nOnce the support team replies, I'll update the team in Teams.\n支持团队回复后，我会在 Teams 中向团队同步进展。\n补充句型（课堂练习，尚未确认是实际安排）：\nIf there's still no reply by tomorrow's stand-up, I'll bring it up again then.\n如果到明天站会仍然没有回复，我会在会上再提一下。\n重点词汇\n词语 含义 本次场景中的用法\nlocally 在本地；副词 debug locally：在自己的电脑或本地开发环境中调试\ngrant / grants 授予、批准给予 The support team grants me access：支持团队授予我权限；本句把 team 作为单数整体，使用 grants\npromptly 及时地、迅速地 update the team promptly：及时向团队同步进展\nproperly 正确地、妥当地 The service isn't working properly：服务运行不正常；它不表示“及时”\nconfirm / confirmed 确认 I confirmed that it doesn't affect testing：我已确认它不影响测试\nconcern 涉及、使担忧；也可作名词表示担忧 本次要表达“确认”，应使用 confirm\nexpected behavior 符合预期的行为 It was expected behavior, so no fix was needed.\nrequest access 申请访问权限 I submitted a ticket to request Key Vault access.\n本次重点纠正\n原表达或易错点 推荐表达 原因\ntomorrow I fix…（描述昨天） Yesterday, I worked on fixing… 时间应是 yesterday，已发生的动作使用过去式\nAlso had a one-one meeting… I also had a one-on-one meeting… 补主语 I；固定表达是 one-on-one\nit didn't bug It wasn't a bug. / It was expected behavior. bug 是名词；这里用 be 动词\nI check it and confirm…（描述已完成的检查） I checked it and confirmed… 过去完成的动作使用过去式\nno fix was need no fix was needed 被动结构使用过去分词 needed\nI submit / summit a ticket I submitted a ticket. submit 是提交，过去式为 submitted；summit 是另一个词\nkeyboard access Key Vault access 这里指 Key Vault 权限；语音转写可能把专有名词识别错\nOnce support granted access, I will… Once support grants access, I'll… once 引导将来的时间条件时，从句通常使用一般现在时；这里是 grants，不是 granted\nupdate the team properly（想表达及时） update the team promptly promptly 表示及时，properly 表示妥当\nif there are no reply if there's no reply 单数 reply 搭配 there is；也可说 if there are no replies\nit's not affect… it doesn't affect… 一般现在时否定使用 doesn't + 动词原形\nI concern…（想表达我确认） I confirmed that… confirm 才表示确认\n下次复习\n先不看稿，用英文复述：昨天做了什么、发现了什么、当前缺什么权限、今天准备做什么。再回答是否影响测试或发布，以及何时向团队同步。\n备注\n本记录依据今天提供的练习对话整理。语音转写不作为发音错误的唯一依据；“out of scope”表示不在范围内，并不直接等于不影响测试或发布。"
+    },
+    {
+      "id": "2026-11-24",
+      "date": "2026-11-24",
+      "weekday": "周二",
+      "title": "站会汇报与权限阻塞",
+      "filename": "2026-11-24_站会汇报与权限阻塞.md",
+      "slug": "2026-11-24_站会汇报与权限阻塞",
+      "scenes": [
+        {
+          "title": "练习一：站会工作汇报",
+          "sections": [
+            {
+              "type": "chinese",
+              "heading": "中文原意（整理版）",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "text": "今天上午，我修复了 IA 中的一些历史遗留 bug。Maggie 在测试时发现了另外一些历史遗留问题，我也一起修复了。我还检查了 Maggie 提出的 PTS 项目中与 Task Service 同步相关的问题，确认系统符合原有设计，因此不需要修复。今天下午，我和 Jackie 有一个一对一会议。",
+                  "html": "今天上午，我修复了 IA 中的一些历史遗留 bug。Maggie 在测试时发现了另外一些历史遗留问题，我也一起修复了。我还检查了 Maggie 提出的 PTS 项目中与 Task Service 同步相关的问题，确认系统符合原有设计，因此不需要修复。今天下午，我和 Jackie 有一个一对一会议。"
+                }
+              ],
+              "text": "今天上午，我修复了 IA 中的一些历史遗留 bug。Maggie 在测试时发现了另外一些历史遗留问题，我也一起修复了。我还检查了 Maggie 提出的 PTS 项目中与 Task Service 同步相关的问题，确认系统符合原有设计，因此不需要修复。今天下午，我和 Jackie 有一个一对一会议。"
+            },
+            {
+              "type": "english",
+              "heading": "最终英文（通用可用版）",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "text": "This morning, I fixed some legacy bugs in IA. Maggie found some additional legacy issues during testing, so I fixed those as well. I also checked the PTS issue Maggie reported about Task Service sync and confirmed that the system is working as designed, so no fix is needed. This afternoon, I have a one-on-one meeting with Jackie.",
+                  "html": "This morning, I fixed some legacy bugs in IA. Maggie found some additional legacy issues during testing, so I fixed those as well. I also checked the PTS issue Maggie reported about Task Service sync and confirmed that the system is working as designed, so no fix is needed. This afternoon, I have a one-on-one meeting with Jackie."
+                }
+              ],
+              "text": "This morning, I fixed some legacy bugs in IA. Maggie found some additional legacy issues during testing, so I fixed those as well. I also checked the PTS issue Maggie reported about Task Service sync and confirmed that the system is working as designed, so no fix is needed. This afternoon, I have a one-on-one meeting with Jackie."
+            },
+            {
+              "type": "corrections",
+              "heading": "重点修正",
+              "blocks": [
+                {
+                  "type": "table",
+                  "columns": [
+                    "原表达",
+                    "推荐表达",
+                    "说明"
+                  ],
+                  "rows": [
+                    [
+                      "work on fix",
+                      "worked on fixing",
+                      "已完成的工作用过去时；on 后接动词的 -ing 形式。"
+                    ],
+                    [
+                      "some legacy bug / issue",
+                      "some legacy bugs / issues",
+                      "some 后的可数名词通常用复数。"
+                    ],
+                    [
+                      "confirm it working",
+                      "confirmed that it is working",
+                      "confirmed 表示检查后已确认；从句需要完整谓语。"
+                    ],
+                    [
+                      "original logic",
+                      "working as designed",
+                      "在这里表示系统符合设计。若只是描述原有逻辑而未确认符合设计，则说 existing behavior。"
+                    ],
+                    [
+                      "no fix is need",
+                      "no fix is needed",
+                      "此处需要 needed。"
+                    ],
+                    [
+                      "one-one meeting",
+                      "one-on-one meeting",
+                      "固定表达：一对一会议。"
+                    ]
+                  ]
+                }
+              ],
+              "text": "原表达 推荐表达 说明\nwork on fix worked on fixing 已完成的工作用过去时；on 后接动词的 -ing 形式。\nsome legacy bug / issue some legacy bugs / issues some 后的可数名词通常用复数。\nconfirm it working confirmed that it is working confirmed 表示检查后已确认；从句需要完整谓语。\noriginal logic working as designed 在这里表示系统符合设计。若只是描述原有逻辑而未确认符合设计，则说 existing behavior。\nno fix is need no fix is needed 此处需要 needed。\none-one meeting one-on-one meeting 固定表达：一对一会议。"
+            },
+            {
+              "type": "pending",
+              "heading": "待确认的专有名称",
+              "blocks": [
+                {
+                  "type": "list",
+                  "items": [
+                    "项目名暂按英文复述中的 IA 记录；中文转写出现过 IE。",
+                    "测试流程名称的转写出现过 three-way、triway 和 triage，尚未确认，最终英文暂用 during testing。",
+                    "会议对象暂按用户英文复述中的 Jackie 记录；中文转写出现过 Jaffy。"
+                  ],
+                  "html_items": [
+                    "项目名暂按英文复述中的 IA 记录；中文转写出现过 IE。",
+                    "测试流程名称的转写出现过 three-way、triway 和 triage，尚未确认，最终英文暂用 during testing。",
+                    "会议对象暂按用户英文复述中的 Jackie 记录；中文转写出现过 Jaffy。"
+                  ]
+                }
+              ],
+              "text": "项目名暂按英文复述中的 IA 记录；中文转写出现过 IE。\n测试流程名称的转写出现过 three-way、triway 和 triage，尚未确认，最终英文暂用 during testing。\n会议对象暂按用户英文复述中的 Jackie 记录；中文转写出现过 Jaffy。"
+            }
+          ]
+        }
+      ],
+      "search_text": "2026-11-24\n站会汇报与权限阻塞\n站会汇报与权限阻塞\n练习一：站会工作汇报\n中文原意（整理版）\n今天上午，我修复了 IA 中的一些历史遗留 bug。Maggie 在测试时发现了另外一些历史遗留问题，我也一起修复了。我还检查了 Maggie 提出的 PTS 项目中与 Task Service 同步相关的问题，确认系统符合原有设计，因此不需要修复。今天下午，我和 Jackie 有一个一对一会议。\n最终英文（通用可用版）\nThis morning, I fixed some legacy bugs in IA. Maggie found some additional legacy issues during testing, so I fixed those as well. I also checked the PTS issue Maggie reported about Task Service sync and confirmed that the system is working as designed, so no fix is needed. This afternoon, I have a one-on-one meeting with Jackie.\n重点修正\n原表达 推荐表达 说明\nwork on fix worked on fixing 已完成的工作用过去时；on 后接动词的 -ing 形式。\nsome legacy bug / issue some legacy bugs / issues some 后的可数名词通常用复数。\nconfirm it working confirmed that it is working confirmed 表示检查后已确认；从句需要完整谓语。\noriginal logic working as designed 在这里表示系统符合设计。若只是描述原有逻辑而未确认符合设计，则说 existing behavior。\nno fix is need no fix is needed 此处需要 needed。\none-one meeting one-on-one meeting 固定表达：一对一会议。\n待确认的专有名称\n项目名暂按英文复述中的 IA 记录；中文转写出现过 IE。\n测试流程名称的转写出现过 three-way、triway 和 triage，尚未确认，最终英文暂用 during testing。\n会议对象暂按用户英文复述中的 Jackie 记录；中文转写出现过 Jaffy。"
+    },
+    {
+      "id": "2026-11-23",
+      "date": "2026-11-23",
+      "weekday": "周一",
+      "title": "PT 配置与权限申请",
+      "filename": "2026-11-23_PT配置与权限申请.md",
+      "slug": "2026-11-23_PT配置与权限申请",
+      "scenes": [
+        {
+          "title": "",
+          "sections": [
+            {
+              "type": "chinese",
+              "heading": "中文原意（根据本次对话整理）",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "text": "今天处理 PT 配置时，我发现自己没有 PT 生产环境的访问权限，因此向 IT Support 提交了申请权限的工单。这个问题可能影响测试，并进一步影响 PT 部署，因为发布需要等待配置测试完成。我会在站会后跟进工单，收到 IT 回复后在 Teams 群聊中同步。如果今天仍没有回复，我会在明天的站会上再次提醒大家。",
+                  "html": "今天处理 PT 配置时，我发现自己没有 PT 生产环境的访问权限，因此向 IT Support 提交了申请权限的工单。这个问题可能影响测试，并进一步影响 PT 部署，因为发布需要等待配置测试完成。我会在站会后跟进工单，收到 IT 回复后在 Teams 群聊中同步。如果今天仍没有回复，我会在明天的站会上再次提醒大家。"
+                }
+              ],
+              "text": "今天处理 PT 配置时，我发现自己没有 PT 生产环境的访问权限，因此向 IT Support 提交了申请权限的工单。这个问题可能影响测试，并进一步影响 PT 部署，因为发布需要等待配置测试完成。我会在站会后跟进工单，收到 IT 回复后在 Teams 群聊中同步。如果今天仍没有回复，我会在明天的站会上再次提醒大家。"
+            },
+            {
+              "type": "english",
+              "heading": "最终英文",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "text": "Today, I worked on the PT configuration, but I realized I didn't have access to the PT production environment, so I submitted a ticket to IT Support to request access. This might affect testing and delay the PT deployment, because we need to finish testing the configuration before we can release. After the stand-up, I'll follow up on the ticket. Once IT replies, I'll update the team in the Teams chat. If there's still no reply by tomorrow's stand-up, I'll bring it up again then.",
+                  "html": "Today, I worked on the PT configuration, but I realized I didn&#x27;t have access to the PT production environment, so I submitted a ticket to IT Support to request access. This might affect testing and delay the PT deployment, because we need to finish testing the configuration before we can release. After the stand-up, I&#x27;ll follow up on the ticket. Once IT replies, I&#x27;ll update the team in the Teams chat. If there&#x27;s still no reply by tomorrow&#x27;s stand-up, I&#x27;ll bring it up again then."
+                }
+              ],
+              "text": "Today, I worked on the PT configuration, but I realized I didn't have access to the PT production environment, so I submitted a ticket to IT Support to request access. This might affect testing and delay the PT deployment, because we need to finish testing the configuration before we can release. After the stand-up, I'll follow up on the ticket. Once IT replies, I'll update the team in the Teams chat. If there's still no reply by tomorrow's stand-up, I'll bring it up again then."
+            },
+            {
+              "type": "qa",
+              "heading": "同事追问与推荐回答",
+              "items": [
+                {
+                  "q_en": "Does that impact today's deployment, or just PT testing?",
+                  "q_zh": "这会影响今天的部署，还是只影响 PT 测试？",
+                  "a_en": "It might affect the PT deployment as well, because the release depends on completing the PT configuration testing.",
+                  "a_zh": "也可能影响 PT 部署，因为发布依赖于 PT 配置测试的完成。"
+                },
+                {
+                  "q_en": "When will you update the team?",
+                  "q_zh": "你什么时候给团队更新进展？",
+                  "a_en": "I'll follow up on the ticket after the stand-up and update the team in the Teams chat once IT replies.",
+                  "a_zh": "我会在站会后跟进工单，收到 IT 回复后在 Teams 群聊中同步。"
+                },
+                {
+                  "q_en": "What will you do if IT doesn't reply today?",
+                  "q_zh": "如果 IT 今天没有回复，你会怎么做？",
+                  "a_en": "If there's still no reply by tomorrow's stand-up, I'll bring it up again then.",
+                  "a_zh": "如果到明天站会时仍没有回复，我会在会上再提一下。"
+                }
+              ],
+              "supplements": [],
+              "preamble": "",
+              "text": "\n**Q: Does that impact today's deployment, or just PT testing?**\n\n中文：这会影响今天的部署，还是只影响 PT 测试？\n\n**A:** It might affect the PT deployment as well, because the release depends on completing the PT configuration testing.\n\n中文：也可能影响 PT 部署，因为发布依赖于 PT 配置测试的完成。\n\n**Q: When will you update the team?**\n\n中文：你什么时候给团队更新进展？\n\n**A:** I'll follow up on the ticket after the stand-up and update the team in the Teams chat once IT replies.\n\n中文：我会在站会后跟进工单，收到 IT 回复后在 Teams 群聊中同步。\n\n**Q: What will you do if IT doesn't reply today?**\n\n中文：如果 IT 今天没有回复，你会怎么做？\n\n**A:** If there's still no reply by tomorrow's stand-up, I'll bring it up again then.\n\n中文：如果到明天站会时仍没有回复，我会在会上再提一下。"
+            },
+            {
+              "type": "expressions",
+              "heading": "重点表达",
+              "blocks": [
+                {
+                  "type": "table",
+                  "columns": [
+                    "中文",
+                    "英文",
+                    "用法"
+                  ],
+                  "rows": [
+                    [
+                      "依赖于",
+                      "depends on",
+                      "动词：The release depends on testing."
+                    ],
+                    [
+                      "对……有依赖",
+                      "has a dependency on",
+                      "名词结构：The release has a dependency on testing."
+                    ],
+                    [
+                      "跟进工单",
+                      "follow up on the ticket",
+                      "将来计划：I'll follow up on the ticket."
+                    ],
+                    [
+                      "申请权限",
+                      "request access",
+                      "I submitted a ticket to request access."
+                    ],
+                    [
+                      "等测试完成",
+                      "wait until testing is complete",
+                      "We need to wait until testing is complete."
+                    ],
+                    [
+                      "再次提起这个问题",
+                      "bring it up again",
+                      "I'll bring it up again at tomorrow's stand-up."
+                    ]
+                  ]
+                }
+              ],
+              "text": "中文 英文 用法\n依赖于 depends on 动词：The release depends on testing.\n对……有依赖 has a dependency on 名词结构：The release has a dependency on testing.\n跟进工单 follow up on the ticket 将来计划：I'll follow up on the ticket.\n申请权限 request access I submitted a ticket to request access.\n等测试完成 wait until testing is complete We need to wait until testing is complete.\n再次提起这个问题 bring it up again I'll bring it up again at tomorrow's stand-up."
+            },
+            {
+              "type": "note",
+              "heading": "备注",
+              "blocks": [
+                {
+                  "type": "paragraph",
+                  "text": "此前提到的测试人员姓名转写不稳定，本记录暂不写入未经确认的人名。“deadline might change”曾用于句型练习，但并非已确认的实际进展，未加入最终汇报。",
+                  "html": "此前提到的测试人员姓名转写不稳定，本记录暂不写入未经确认的人名。“deadline might change”曾用于句型练习，但并非已确认的实际进展，未加入最终汇报。"
+                }
+              ],
+              "text": "此前提到的测试人员姓名转写不稳定，本记录暂不写入未经确认的人名。“deadline might change”曾用于句型练习，但并非已确认的实际进展，未加入最终汇报。"
+            }
+          ]
+        }
+      ],
+      "search_text": "2026-11-23\nPT 配置与权限申请\nPT配置与权限申请\n中文原意（根据本次对话整理）\n今天处理 PT 配置时，我发现自己没有 PT 生产环境的访问权限，因此向 IT Support 提交了申请权限的工单。这个问题可能影响测试，并进一步影响 PT 部署，因为发布需要等待配置测试完成。我会在站会后跟进工单，收到 IT 回复后在 Teams 群聊中同步。如果今天仍没有回复，我会在明天的站会上再次提醒大家。\n最终英文\nToday, I worked on the PT configuration, but I realized I didn't have access to the PT production environment, so I submitted a ticket to IT Support to request access. This might affect testing and delay the PT deployment, because we need to finish testing the configuration before we can release. After the stand-up, I'll follow up on the ticket. Once IT replies, I'll update the team in the Teams chat. If there's still no reply by tomorrow's stand-up, I'll bring it up again then.\n同事追问与推荐回答\n\n**Q: Does that impact today's deployment, or just PT testing?**\n\n中文：这会影响今天的部署，还是只影响 PT 测试？\n\n**A:** It might affect the PT deployment as well, because the release depends on completing the PT configuration testing.\n\n中文：也可能影响 PT 部署，因为发布依赖于 PT 配置测试的完成。\n\n**Q: When will you update the team?**\n\n中文：你什么时候给团队更新进展？\n\n**A:** I'll follow up on the ticket after the stand-up and update the team in the Teams chat once IT replies.\n\n中文：我会在站会后跟进工单，收到 IT 回复后在 Teams 群聊中同步。\n\n**Q: What will you do if IT doesn't reply today?**\n\n中文：如果 IT 今天没有回复，你会怎么做？\n\n**A:** If there's still no reply by tomorrow's stand-up, I'll bring it up again then.\n\n中文：如果到明天站会时仍没有回复，我会在会上再提一下。\nDoes that impact today's deployment, or just PT testing?\n这会影响今天的部署，还是只影响 PT 测试？\nIt might affect the PT deployment as well, because the release depends on completing the PT configuration testing.\n也可能影响 PT 部署，因为发布依赖于 PT 配置测试的完成。\nWhen will you update the team?\n你什么时候给团队更新进展？\nI'll follow up on the ticket after the stand-up and update the team in the Teams chat once IT replies.\n我会在站会后跟进工单，收到 IT 回复后在 Teams 群聊中同步。\nWhat will you do if IT doesn't reply today?\n如果 IT 今天没有回复，你会怎么做？\nIf there's still no reply by tomorrow's stand-up, I'll bring it up again then.\n如果到明天站会时仍没有回复，我会在会上再提一下。\n重点表达\n中文 英文 用法\n依赖于 depends on 动词：The release depends on testing.\n对……有依赖 has a dependency on 名词结构：The release has a dependency on testing.\n跟进工单 follow up on the ticket 将来计划：I'll follow up on the ticket.\n申请权限 request access I submitted a ticket to request access.\n等测试完成 wait until testing is complete We need to wait until testing is complete.\n再次提起这个问题 bring it up again I'll bring it up again at tomorrow's stand-up.\n备注\n此前提到的测试人员姓名转写不稳定，本记录暂不写入未经确认的人名。“deadline might change”曾用于句型练习，但并非已确认的实际进展，未加入最终汇报。"
+    }
+  ]
+}
